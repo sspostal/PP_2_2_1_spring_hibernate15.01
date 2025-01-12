@@ -30,7 +30,6 @@ public class MainApp {
 
       for (User user : userService.listUsers()) {
          System.out.println(user + " " + user.getCar());
-         System.out.println("1. _____________________________________________");
       }
 
       System.out.println(userService.getUserByCar("telephone box", 10000));
